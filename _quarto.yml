@@ -1,0 +1,58 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  # title: "E. Miller Christen"
+  site-url: "https://github.com/millzchristen/miller-christen"
+  page-navigation: true
+  # back-to-top-navigation: true
+  search: true 
+  navbar:
+    # logo: assets/logo.svg
+    tools: 
+      # - icon: github
+      #  href: https://github.com/millzchristen/miller-christen 
+      # - icon: linkedin
+      #   href: https://linkedin.com/in/miller-christen-a55264218 
+      # - icon: envelope
+      #   aria-label: "Email"
+      #   href: mailto::millerchristen3@gmail.com
+      
+    right: 
+      - text: "Home"
+        href: index.qmd
+      - text: About 
+        aria-label: "About Me"
+        href: about/index.qmd
+      - text: Projects
+        aria-label: "Project Portfolio"
+        href: projects/index.qmd
+        
+  
+  page-footer:  
+    left: >-
+     &#169; 2026 &#8729; Made with [Quarto](https://quarto.org)
+    right: |
+      <a class="link-dark me-1" href="mailto:millerchristen3@gmail.com" title="Email">{{< fa envelope >}}</a>
+      <a class="link-dark me-1" href="https://linkedin.com/in/miller-christen-a55264218" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/millzchristen" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/0009-0007-4093-1407" title="ORCID" target="_blank" rel="noopener">{{< ai brands orcid >}}</a>    
+      <!-- <a class="link-dark me-1" href="link" title="Google Scholar" target="_blank" rel="noopener">{{< ai google-scholar >}}</a> -->
+format:
+  html:
+    theme: 
+      - cosmo
+      - assets/theme.scss
+      - assets/colors.scss
+      - assets/fonts.scss
+    css: styles.css
+    code-link: true
+    toc: true
+    anchor-sections: true
+    
+execute: 
+  freeze: auto
+
+
+

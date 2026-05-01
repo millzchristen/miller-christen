@@ -1,0 +1,28 @@
+---
+title: "Recent Projects"
+author: ""
+comments: false
+citation: false
+<! -- description: |
+  This portfolio is a collection of research initiatives, statistical models, and interactive visualizations. -->
+
+listing: 
+  contents:
+    - galaxy_viewer.qmd
+    - "external-items/metadata.yml"
+  type: grid
+  fields: [title, description, categories, image]
+  sort: "date-modified desc"
+  filter-ui: false
+  image-height: 100%
+format: 
+  html: 
+    page-layout: full
+    toc: false
+title-block-banner: false
+
+header-includes: >
+  <link rel="stylesheet" href="../assets/listing-default.css">
+resources:
+  - ../assets/listing_default.css
+---

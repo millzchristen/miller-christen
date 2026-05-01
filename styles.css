@@ -1,0 +1,176 @@
+/* Global adjustments */
+body {
+  font-size: 1.1rem;
+  line-height: 1.7;
+}
+ 
+/* Title block styling */
+#title-block-header {
+  padding: 2rem 0 1rem 0;
+  margin-bottom: 2rem;
+}
+ 
+.title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+ 
+.subtitle {
+  font-size: 1.25rem;
+  color: #6c757d;
+  margin-bottom: 1rem;
+}
+ 
+/* Listing pages */
+.quarto-listing {
+  margin-top: 2rem;
+}
+ 
+.quarto-grid-item {
+  margin-bottom: 2rem;
+}
+ 
+.quarto-grid-item .card-body {
+  padding: 1.5rem;
+}
+ 
+.quarto-grid-item .listing-categories {
+  margin-top: 0.5rem;
+}
+ 
+.quarto-grid-item .listing-category {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  background-color: #e9ecef;
+  border-radius: 12px;
+  font-size: 0.875rem;
+  color: #495057;
+}
+ 
+/* CV/About page specific */
+.contact-info {
+  text-align: center;
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+ 
+.download-cv {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+ 
+.download-cv .btn {
+  padding: 0.75rem 2rem;
+  font-size: 1.1rem;
+}
+ 
+/* Experience sections */
+h3 + p strong {
+  color: #495057;
+  font-size: 1rem;
+}
+ 
+/* Connect buttons */
+#connect + p,
+.about-links {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+ 
+/* Home page hero */
+.hero {
+  padding: 3rem 0;
+  text-align: center;
+}
+ 
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+ 
+.hero .lead {
+  font-size: 1.5rem;
+  color: #6c757d;
+  margin-bottom: 2rem;
+}
+ 
+/* Project cards */
+.project-card {
+  border: 1px solid #dee2e6;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+ 
+.project-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+ 
+.project-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+}
+ 
+.project-card h2, .project-card h3 {
+  border-bottom: none;
+  margin-top: 0;
+}
+ 
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .subtitle {
+    font-size: 1.1rem;
+  }
+  
+  .hero h1 {
+    font-size: 2rem;
+  }
+  
+  .hero .lead {
+    font-size: 1.25rem;
+  }
+}
+ 
+/* Table of contents */
+.sidebar nav[role="doc-toc"] ul {
+  padding-left: 0;
+  list-style: none;
+}
+ 
+.sidebar nav[role="doc-toc"] li {
+  margin-bottom: 0.25rem;
+}
+ 
+.sidebar nav[role="doc-toc"] a {
+  color: #4A90A4;
+  text-decoration: none;
+}
+ 
+.sidebar nav[role="doc-toc"] a:hover {
+  color: #2c5f6f;
+  text-decoration: underline;
+}
+ 
+.sidebar nav[role="doc-toc"] .active {
+  color: #2c5f6f;
+  font-weight: 600;
+}

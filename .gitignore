@@ -1,0 +1,7 @@
+
+_site/
+*.zip
+.DS_Store
+* 2.qmd
+
+/.quarto/

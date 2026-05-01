@@ -1,0 +1,70 @@
+---
+title: "E. Miller Christen"
+subtitle: "millerchristen3@gmail.com"
+format: 
+  html: 
+    page-layout: article
+    toc: false
+header-includes: >
+  <link rel="stylesheet" href="../assets/about.css">
+resources:
+  - ../assets/about.css
+---
+
+::: {.download-cv}
+<br>
+[Download CV (PDF)](2026_CV.pdf){.btn .btn-primary .btn-sm role="button"}
+:::
+
+---
+
+## Education
+
+**University of South Carolina**, Columbia, SC  
+*Master of Science in Statistics* | Expected May 2026
+
+**Clemson University**, Clemson, SC  
+*Bachelor of Science in Mathematical Sciences* | May 2024  
+*Emphasis in Applied Mathematics, Minor in Physics*
+
+---
+
+## Experience
+
+**University of South Carolina** *Department of Statistics* | August 2025 – Present
+
+- Developed a CvT-based model for galaxy morphology classification using JWST Advanced Deep Extragalactic Survey images.
+
+**Clemson University** *Department of Mathematics* | August 2023 – May 2024
+
+- Analyzed the behavior of Bounded Height Matrices of Integers (Bohemian Matrices) using Singular Value Decomposition (SVD) of eigenvalue density plots.
+
+**Clemson University** *Laboratory for Band Engineering of Quantum Systems* | August 2023 – May 2024
+
+- Designed and tested instrumentation for an electron radiation chamber (including a 3d printed einzel lens, UHV cryocooler, and cold finger shield)
+
+**University of Notre Dame** *Nuclear Science Laboratory* | Summer 2023
+
+- Optimized modeling of half-life curves through statistical analysis of $^{33}\text{Cl}$ decay data.
+
+---
+
+## Teaching & Service
+
+**University of South Carolina** | *Graduate Assistant* | 2024 – 2026  
+- Lecturer and Lab Instructor for Elementary Statistics (STAT 201).
+
+**Association of Women in Mathematics (AWM)** | *President* | 2023 – 2024  
+- Led Clemson University student chapter, managing budgets and coordinating events.
+
+**Melton Observatory** | *Volunteer* | 2025 – 2026  
+- Assist with public viewing sessions and telescope alignment and operation.
+
+---
+
+## Skills
+
+* **Programming:** Python, R, SQL
+<!-- * **Statistics:** Machine Learning, Deep Learning, Regression, Data Visualization, Data Analytics -->
+<!-- * **Libraries:**  Astropy, Pytorch, TensorFlow -->
+* **Tools:** RStudio, LaTeX, Git, Jupyter, SAS

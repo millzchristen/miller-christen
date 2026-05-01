@@ -1,0 +1,81 @@
+/* title and subtitle */
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.1em !important;
+}
+
+.subtitle {
+  font-family: "Petrona";
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* header section */
+.about-entity .entity-contents {
+  text-align: right !important;
+  padding: 0 2em;
+}
+
+.about-entity .about-links {
+  justify-content: flex-end !important;
+  column-gap: 0.3em !important;
+  font-size: 1.2em !important;
+}
+
+.about-entity .about-link {
+  padding: 0.25em !important;
+  border: none !important;  
+}
+
+.about-image {
+  margin-top: -2em;
+}
+
+/* blurb paragraph */
+#hero-content {
+  text-align: center !important;
+  margin: 1rem auto 0; 
+  max-width: 800px;
+  clear: both;
+}
+
+#hero-content p {
+  text-align: center !important;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* learn about me button- */
+.about-links.subtitle {
+  display: inline-block !important; /* Essential for centering */
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 1em !important;
+  text-decoration: underline !important;
+  color: inherit;
+  padding: 0.4em 1.0em;
+  transition: all 0.3s ease;
+}
+
+.about-links.subtitle:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+/* mobile */
+@media screen and (max-width: 991.98px) {
+    .entity-contents, 
+    .about-entity .about-links,
+    #hero-content {
+      text-align: center !important;
+      justify-content: center !important;
+      margin-top: 0 !important;
+    }
+
+    .about-image {
+      padding: 0 !important;
+      margin-bottom: 1em;
+    }
+}
