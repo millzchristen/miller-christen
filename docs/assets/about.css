@@ -1,0 +1,48 @@
+@import url(colors.scss);
+
+/* center title and subtitle */
+header#title-block-header {
+  text-align: center !important;
+  margin-bottom: 0.5rem;
+}
+
+header#title-block-header .subtitle {
+  text-align: center !important;
+  margin-top: 0;
+  font-family: "Petrona", serif;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #555;
+}
+
+/* center email and CV button */
+.header-center {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header-center a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.download-cv {
+  margin-top: 1rem;
+}
+
+.page-columns .column-body {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+h2 {
+  text-align: left;
+  border-bottom: none;
+  margin-top: 1.5rem;
+  font-weight: 700;
+}
