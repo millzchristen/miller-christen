@@ -1,7 +1,7 @@
 ---
 title: "E. Miller Christen"
 subtitle: "M.S. in Statistics" 
-image: assets/profile2.jpg
+image: assets/profile.jpg
 image-alt: "Headshot of smiling woman"
 about: 
   template: solana
