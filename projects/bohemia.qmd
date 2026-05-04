@@ -1,0 +1,17 @@
+---
+title: "Images of BoHeMIa"
+description: "Math For All (MFA) Conference Poster on Bounded Height Matrices of Integers"
+author: ""
+resources: 
+  - MFA_poster.pdf
+  - bohemia.png
+date: "2024-04"
+categories: [Python] 
+image: "bohemia.png"     
+link: "MFA_poster.pdf"
+format:
+  html:
+    page-layout: full
+    toc: false
+---
+

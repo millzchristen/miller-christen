@@ -9,6 +9,7 @@ citation: false
 listing: 
   contents:
     - galaxy_viewer.qmd
+    - bohemia.qmd
     - "external-items/metadata.yml"
   type: grid
   fields: [title, description, categories, image]
