@@ -11,3 +11,5 @@ image: "bohemia.png"
 link: "MFA_poster.pdf"
 ---
 <meta http-equiv="refresh" content="0; url=MFA_poster.pdf">
+
+[Click here if you are not redirected automatically](MFA_poster.pdf)
