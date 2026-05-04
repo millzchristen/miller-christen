@@ -5,13 +5,9 @@ author: ""
 resources: 
   - MFA_poster.pdf
   - bohemia.png
-date: "2024-04"
+date: "2024-04-05"
 categories: [Python] 
 image: "bohemia.png"     
 link: "MFA_poster.pdf"
-format:
-  html:
-    page-layout: full
-    toc: false
 ---
-
+<meta http-equiv="refresh" content="0; url=MFA_poster.pdf">
